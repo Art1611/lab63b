@@ -6,9 +6,9 @@
 
 ### อุปกรณ์ที่ใช้
 1. ไมโครคอนโทรเลอร์ (ESP-01)
-![Image](https://ae01.alicdn.com/kf/HTB1QMy2J9zqK1RjSZFpq6ykSXXac/ESP8266-ESP-01-ESP01-Serial-WIFI-3-3V-5V-Serial.jpg)
-3. อุปกรณ์เชื่อมต่อแบบ USB
-4. ซีเรียล
+![Image](https://ae01.alicdn.com/kf/HTB1Gr9mawaTBuNjSszfq6xgfpXaL.jpg)
+2. อุปกรณ์เชื่อมต่อแบบ USB
+3. ซีเรียล
 
 
 ### ศึกษาข้อมูลเบื้องต้น
