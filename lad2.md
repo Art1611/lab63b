@@ -8,14 +8,85 @@
 2. อุปกรณ์เชื่อมต่อแบบ USB
 3. ซีเรียล
 
+
 ### ศึกษาข้อมูลเบื้องต้น
 #### 02 run example 2
 https://www.youtube.com/watch?v=yBjab0UNuB8
 
+
 ### วิธีการทดลอง
+1. เขียนโปรแกรมลงใน **visual studio code** โดยใช้ภาษา C
+```C
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
+
+int cnt = 0;
+
+void setup()
+{
+	serial.begin(115200);
+	WiFi.mode(WIFI_STA);
+	WiFi.disconnect();
+	dalay(100);
+	Serial.println("\n\n\n");
+}
+
+void loop()
+{
+	serial.println("========== เริ่มต้นสแกนหา Wifi ===========");
+	int n = WiFi.scanNetworks();
+	if(n == 0) {
+		Serial.println("NO NETWORK FOUND");
+	} else {
+		for(int i=0; i<n; i++) {
+			Serial.print(i+1);
+			Serial.print(": ");
+			Serial.print(WiFi.SSID(i));
+			Serial.print("(");
+			Serial.print(WiFi.RSSI(i));
+			Serial.println(")");
+			dalay(10);
+		}
+	}
+	Seial.println("\n\n");
+}
+
+```
+2. ต่ออุปกรณ์ USB เข้ากับซีเรียล
+3. ต่อซีเรียลเข้ากับไมโครคอนโทรเลอร์
+4. เปิด Command Prompt แล้วเข้าไปในโฟล์เดอร์ที่จะอัพโหลด เช่น ไดฟ์ D ไฟล์ ชื่อ test wifi microcontroller
+  พิมพ์ **d:** แล้วกด **Enter**
+  พิมพ์ **cd test wifi microcontroller** แล้วกด **Enter**
+  จะแสดงโปรแกรมทั้งหมด 9 ตัว
+    * 01_Serial-Monitor
+    * 02_Scan-Wifi
+    * 03_Output-Port
+    * 04_Input-Port
+    * 05_Wifi-Wed-Server
+    * 06_Wifi-AP-Web-Server
+    * 07_Wed-Server-OnOff
+    * 08_MQTT-publish
+    * 09_MQTT-subscript
+* โดยการทดลองที่ 2 จะเป็นทดสอบการค้นหาไวไฟโดยใช้ไมโครคอนโทรเลอร์ จึงเรียกใช้ โปรแกรมที่โดยพิม **cd 02_Scan-Wifi** แล้วกด **Enter**
+ สามารถเช็คโปรแกรมที่ใช้รันได้โดย พิมพ์ **vi src/main.cpp** แล้วกด **Enter**โดยจะแสดงโค้ดที่เขียนจากข้อที่ 1
+5. อัพโหลดโปรแกรม โดยพิมพ์ **pio run -t upload** แล้วกด **Enter** ในขณะที่รันโปรแกรมเพื่อให้ไมโครคอนโทรเลอร์รับโปกรแกรมใหม่เข้าไป ให้กดปุ่มดำค้าง แล้วกดปุ่มแดง 1 ครั้ง เพิ่มเป็นการรีเซต
+6. เมื่อลงโปรแกรมเสร็จแล้ว พิมพ์ **pio device monitor** แล้วกด **Enter** เพื่อดูผลลัพท์โดยการแสดงผลจากคอมพิวเตอร์ สามารถกดปุ่มสีแดงเพื่อรีเซต
+7. สังเกต บันทึกผล และอธิปรายผล
+
 
 ### การบันทึกผลการทดลอง
+  เมื่อรันโปรแกรมเข้าไมโครคอนโทรเลอร์เสร็จ จะได้ผลลัพท์จำนวนไวไฟและชื่อของไวไฟ 
+
 
 ### อภิปรายผลการทดลอง
+  จากการทดลอง พบว่า ไมโครคอนโทรเลอร์ที่รันโปรแกรมเข้าจะแสดงไวไฟที่หาเจอ เรื่อย ๆ ซึ่งไวไฟที่หาเจอแต่รอบขึ้นอยู่กับสัญญาณไวไฟ
+  ![image](https://user-images.githubusercontent.com/80879565/111809728-df5b2180-8907-11eb-882e-b004fcea68af.png)
 
+    
 ### คำถามหลังการทดลอง
+  * ประโยชน์ของไมโครคอนโทรเลอร์มีอะไรบ้าง
+
+
+## จบการทดลองที่ 1 เพียงเท่านั้น
+### หากมีข้อผิดพลาดประการใดข้ออภัยมา ณ ที่นี้ด้วย
+## :+1: :+1:  :+1:  :+1:  :+1:  
