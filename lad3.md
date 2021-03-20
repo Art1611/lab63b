@@ -66,6 +66,7 @@ void loop()
 
 
 4. ต่อ Adapter เข้ากับไมโครคอนโทรเลอร์
+
 ![image](https://user-images.githubusercontent.com/80879565/111870405-23592f80-89b7-11eb-8f70-45200335134c.png)
 
 5. เปิด Command Prompt แล้วเข้าไปในโฟล์เดอร์ที่จะอัพโหลด เช่น ไดฟ์ D ไฟล์ ชื่อ Output-Port
@@ -85,13 +86,17 @@ void loop()
  สามารถเช็คโปรแกรมที่ใช้รันได้โดย พิมพ์ **vi src/main.cpp** แล้วกด **Enter**โดยจะแสดงโค้ดที่เขียนจากข้อที่ 1
 6. อัพโหลดโปรแกรม โดยพิมพ์ **pio run -t upload** แล้วกด **Enter** ในขณะที่รันโปรแกรมเพื่อให้ไมโครคอนโทรเลอร์รับโปกรแกรมใหม่เข้าไป ให้กดปุ่มดำค้าง แล้วกดปุ่มแดง 1 ครั้ง เพิ่มเป็นการรีเซต
 7. เมื่อลงโปรแกรมเสร็จแล้ว พิมพ์ **pio device monitor** แล้วกด **Enter** เพื่อดูผลลัพท์โดยการแสดงผลจากคอมพิวเตอร์ สามารถกดปุ่มสีแดงเพื่อรีเซต
+
 ![image](https://user-images.githubusercontent.com/80879565/111870517-d1fd7000-89b7-11eb-92f5-79ecfc70ef96.png)
 ![image](https://user-images.githubusercontent.com/80879565/111870527-e0e42280-89b7-11eb-89a8-0fadc24c4c73.png)
+
 8. สังเกต บันทึกผล และอธิปรายผล
 9. ถอดไมโครคอนโทรเลอร์แล้วนำมาต่อกับตัวรีเลย์
+
 ![image](https://user-images.githubusercontent.com/80879565/111870683-b181e580-89b8-11eb-80b4-b7570dd25c33.png)
 
 10. นำตัวรีเลย์ต่อกับหัวชาตเพื่อจ่ายไฟไปให้รีเลย์ทำงาน
+
 ![image](https://user-images.githubusercontent.com/80879565/111870723-eee67300-89b8-11eb-8959-03ed5f2b81ca.png)
 ![image](https://user-images.githubusercontent.com/80879565/111870717-dfffc080-89b8-11eb-8907-951e2193f110.png)
 
