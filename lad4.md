@@ -15,7 +15,8 @@
 ### ศึกษาข้อมูลเบื้องต้น
 #### 04 run example 4
 https://www.youtube.com/watch?v=nFqoZT26U5k
-
+#### เซนเซอร์แสง
+https://sites.google.com/a/rsu.ac.th/kar-peid-pid-fi-dwy-saeng/home/2222/sensexr-saeng
 
 
 ### วิธีการทดลอง
@@ -87,6 +88,7 @@ void loop()
 9. นำเซนเซอร์แสงที่มีต่อกับตัวต้านทานต่อ ดังภาพ และนำสีขาวต่อตรงกลางระหว่างสายสีแดงกับสายสีด
 
 ![image](https://user-images.githubusercontent.com/80879565/111872415-64097680-89c0-11eb-8a1d-b296309de592.png)
+
 10. สังเกต บันทึกผล และอธิปรายผล
 
 ![image](https://user-images.githubusercontent.com/80879565/111873032-f447bb80-89c0-11eb-9c72-8d0113a02dae.png)
