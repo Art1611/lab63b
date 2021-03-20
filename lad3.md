@@ -11,6 +11,7 @@
 3. ซีเรียล
 4. Adapter
 5. รีเลย์(Relay)
+
 ![image](https://user-images.githubusercontent.com/80879565/111870658-90b99000-89b8-11eb-9241-21e0e7a6a4dc.png)
 
 
@@ -59,8 +60,10 @@ void loop()
  
 2. ต่ออุปกรณ์ USB เข้ากับซีเรียล
 3. ต่อซีเรียลเข้ากับ Adapter
+
 ![image](https://user-images.githubusercontent.com/80879565/111870346-ccebf100-89b6-11eb-90c0-80c958516e99.png)
 ![image](https://user-images.githubusercontent.com/80879565/111870380-f86edb80-89b6-11eb-87f9-6d601dec997c.png)
+
 
 4. ต่อ Adapter เข้ากับไมโครคอนโทรเลอร์
 ![image](https://user-images.githubusercontent.com/80879565/111870405-23592f80-89b7-11eb-8f70-45200335134c.png)
