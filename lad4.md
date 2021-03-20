@@ -9,10 +9,12 @@
 2. อุปกรณ์เชื่อมต่อแบบ USB
 3. ซีเรียล
 4. Adapter
+5. เซนเซอร์แสงต่อกับตัวต้านทาน
 
 
 ### ศึกษาข้อมูลเบื้องต้น
-#### 
+#### 04 run example 4
+https://www.youtube.com/watch?v=nFqoZT26U5k
 
 
 
@@ -48,9 +50,10 @@ void loop()
  
 2. ต่ออุปกรณ์ USB เข้ากับซีเรียล
 3. ต่อซีเรียลเข้ากับ Adapter
-4. นำ Adapter ต่อกับไมโครคอนโทรเลอร์
+4. นำ Adapter ต่อเข้ากับไมโครคอนโทรเลอร์ 
 
 ![image](https://user-images.githubusercontent.com/80879565/111871659-eba1b600-89bd-11eb-9da8-d7cd6c8fd12c.png)
+(port 0 สีขาว, port 2 สีเหลือง)
 
 5. เปิด Command Prompt แล้วเข้าไปในโฟล์เดอร์ที่จะอัพโหลด เช่น ไดฟ์ D ไฟล์ ชื่อ Input-Port
   พิมพ์ **d:** แล้วกด **Enter**
@@ -69,7 +72,26 @@ void loop()
  สามารถเช็คโปรแกรมที่ใช้รันได้โดย พิมพ์ **vi src/main.cpp** แล้วกด **Enter**โดยจะแสดงโค้ดที่เขียนจากข้อที่ 1
 6. อัพโหลดโปรแกรม โดยพิมพ์ **pio run -t upload** แล้วกด **Enter** ในขณะที่รันโปรแกรมเพื่อให้ไมโครคอนโทรเลอร์รับโปกรแกรมใหม่เข้าไป ให้กดปุ่มดำค้าง แล้วกดปุ่มแดง 1 ครั้ง เพิ่มเป็นการรีเซต
 7. เมื่อลงโปรแกรมเสร็จแล้ว พิมพ์ **pio device monitor** แล้วกด **Enter** เพื่อดูผลลัพท์โดยการแสดงผลจากคอมพิวเตอร์ สามารถกดปุ่มสีแดงเพื่อรีเซต
+* นำสายสีขาวจิ้ม 
+
+![image](https://user-images.githubusercontent.com/80879565/111871970-70410400-89bf-11eb-9890-8d67654e5d11.png)
+![image](https://user-images.githubusercontent.com/80879565/111871995-89e24b80-89bf-11eb-8a6e-a6d11ee263df.png)
+
+* กดปุ่มสีดำ
+
+![image](https://user-images.githubusercontent.com/80879565/111872037-d3329b00-89bf-11eb-90e3-a9ae0473a208.png)
+![image](https://user-images.githubusercontent.com/80879565/111872046-e3e31100-89bf-11eb-80c5-a477a79f401a.png)
+
+
 8. สังเกต บันทึกผล และอธิปรายผล
+9. นำเซนเซอร์แสงที่มีต่อกับตัวต้านทานต่อ ดังภาพ และนำสีขาวต่อตรงกลางระหว่างสายสีแดงกับสายสีด
+
+![image](https://user-images.githubusercontent.com/80879565/111872415-64097680-89c0-11eb-8a1d-b296309de592.png)
+10. สังเกต บันทึกผล และอธิปรายผล
+
+![image](https://user-images.githubusercontent.com/80879565/111873032-f447bb80-89c0-11eb-9c72-8d0113a02dae.png)
+![image](https://user-images.githubusercontent.com/80879565/111873043-00337d80-89c1-11eb-800b-11d6a777d6c9.png)
+
 
 
 ### การบันทึกผลการทดลอง
