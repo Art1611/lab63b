@@ -7,7 +7,9 @@
 
 ### อุปกรณ์ที่ใช้
 1. ไมโครคอนโทรเลอร์ (ESP-01)
+
 	![Image](https://ae01.alicdn.com/kf/HTB1Gr9mawaTBuNjSszfq6xgfpXaL.jpg)
+	
 2. อุปกรณ์เชื่อมต่อแบบ USB
 3. ซีเรียล
 
