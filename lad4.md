@@ -82,7 +82,7 @@ void loop()
 
 * กดปุ่มสีดำ
 
-![image](https://user-images.githubusercontent.com/80879565/111872037-d3329b00-89bf-11eb-90e3-a9ae0473a208.png)
+![4](https://user-images.githubusercontent.com/80879565/112140901-33674e00-8c07-11eb-8966-e70267414dce.png)
 ![image](https://user-images.githubusercontent.com/80879565/111872046-e3e31100-89bf-11eb-80c5-a477a79f401a.png)
 
 
