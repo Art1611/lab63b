@@ -77,7 +77,7 @@ void loop()
 7. เมื่อลงโปรแกรมเสร็จแล้ว พิมพ์ **pio device monitor** แล้วกด **Enter** เพื่อดูผลลัพท์โดยการแสดงผลจากคอมพิวเตอร์ สามารถกดปุ่มสีแดงเพื่อรีเซต
 * นำสายสีขาวจิ้ม 
 
-![image](https://user-images.githubusercontent.com/80879565/111871970-70410400-89bf-11eb-9890-8d67654e5d11.png)
+![2](https://user-images.githubusercontent.com/80879565/112140507-aa501700-8c06-11eb-9e93-27f5817abe0d.png)
 ![image](https://user-images.githubusercontent.com/80879565/111871995-89e24b80-89bf-11eb-8a6e-a6d11ee263df.png)
 
 * กดปุ่มสีดำ
