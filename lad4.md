@@ -78,7 +78,7 @@ void loop()
 * นำสายสีขาวจิ้ม 
 
 ![2](https://user-images.githubusercontent.com/80879565/112140507-aa501700-8c06-11eb-9e93-27f5817abe0d.png)
-![image](https://user-images.githubusercontent.com/80879565/111871995-89e24b80-89bf-11eb-8a6e-a6d11ee263df.png)
+![3](https://user-images.githubusercontent.com/80879565/112140718-f602c080-8c06-11eb-8a25-818d323ac530.png)
 
 * กดปุ่มสีดำ
 
